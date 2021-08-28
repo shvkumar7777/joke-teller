@@ -1,7 +1,7 @@
 const button = document.getElementById('button');
 const audioElement = document.getElementById('audio');
 const APIKEY = '57720182d2d648eb944328be5f50ae34'
-const jokeAPI =  'https://v2.jokeapi.dev/joke/Any';
+const jokeAPI =  'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit';
 
 //disable/enable the button
 function disableButton(){
