@@ -62,7 +62,7 @@ async function tellMeAJoke(){
         data = await response.json();
         //console.log(data);
         joke = constructJoke(data);
-        console.log(joke);
+        // console.log(joke);
         //pass the joke 
         textToSpeech(joke);
                    
